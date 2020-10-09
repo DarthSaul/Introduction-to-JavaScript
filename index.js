@@ -252,13 +252,14 @@ function annoyingSong(numBottles){
      numBottles--; // decrement by 1
   if (numBottles === 0){
     break;
-    // return;
     }
   }
 }
 const bottles = Math.floor(Math.random() * 99);
 console.log(annoyingSong(bottles));
-
+// Added 'return' to ${} statement in order to pass test.js file
+// Switch return to console.log to display
+// Need to figure out how to NOT return 'undefined' once numBottles = 0 ...
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
