@@ -25,7 +25,7 @@ if (votingAge >= 18){
   console.log("You are not legally allowed to vote yet.")
 }
 
-
+ 
 /*
 Task 1b - Values
 
